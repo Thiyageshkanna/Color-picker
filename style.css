@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.heading {
+  font-size: 3rem;
+  color: teal;
+  font-weight: 1100px;
+  font-style: unset;
+  position: absolute;
+  margin-left: 190px;
+  margin-top: 10px;
+  padding-top: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+#listing {
+  list-style: none;
+  display: inline;
+  display: flex;
+  position: relative;
+  margin: 10px 840px;
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+#simple {
+  margin-right: 130px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 1100px;
+  font-style: unset;
+}
+.start {
+  height: 80px;
+  width: 150%;
+  background-color: whitesmoke;
+  margin-top: -10px;
+}
+body {
+  background-color: grey;
+  position: fixed;
+}
+.btn {
+  margin: 150px 450px;
+  padding: 30px 60px;
+  font-size: 3rem;
+}
+.bg {
+  width: 480px;
+  border: 3px solid black;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+}
+.btns {
+  font-size: 40px;
+  padding: 10px 20px;
+  border: 3px solid black;
+  color: whitesmoke;
+  background-color: black;
+  margin-left: 130px;
+  margin-top: 30px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+span {
+  padding-left: 30px;
+  color: grey;
+}
+.btns:hover {
+  background-color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    margin-left: 5px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .h {
+    margin-left: -630px;
+    font-size: 25px;
+    padding-top: 30px;
+  }
+  .hex {
+    margin-left: -670px;
+    font-size: 25px;
+    padding-top: 30px;
+  }
+  .btn {
+    font-size: 3rem;
+  }
+
+  .bg {
+    margin-left: -450px;
+    font-size: 20px;
+  }
+
+  .bg {
+    width: 250px;
+    margin-top: -90px;
+  }
+  .btns {
+    margin-left: -405px;
+    font-size: 30px;
+  }
+}
